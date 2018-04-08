@@ -25,6 +25,7 @@ export const matDrawerAnimations: {
       visibility: 'visible',
     })),
     state('void', style({
+      'box-shadow': 'none',
       visibility: 'hidden',
     })),
     transition('void => open-instant', animate('0ms')),
