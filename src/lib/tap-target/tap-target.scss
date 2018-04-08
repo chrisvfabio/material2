@@ -1,0 +1,33 @@
+.mat-tap-target {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,188,212, .96);
+    border-radius: 100%;
+    padding: 64px;
+    width: 630px;
+    height: 674px;
+    outline: 0;
+    h3 {
+        margin: 0;
+        padding: 0 40px;
+        position: absolute;
+        left: calc(88px + 400px);
+        top: 400px;
+    }
+
+    .mat-tap-target-overlay {
+        background: white;
+        width: 88px;
+        height: 88px;
+        border-radius: 100%;
+    }
+
+    .mat-tap-target-content {
+        position: absolute;
+        left: 339px;
+        top: 428px;
+        padding: 40px 80px;
+    }
+}

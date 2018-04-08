@@ -94,6 +94,7 @@ System.config({
     '@angular/material/toolbar': 'dist/packages/material/toolbar/index.js',
     '@angular/material/tooltip': 'dist/packages/material/tooltip/index.js',
     '@angular/material/badge': 'dist/packages/material/badge/index.js',
+    '@angular/material/tap-target': 'dist/packages/material/tap-target/index.js',
     '@angular/material/tree': 'dist/packages/material/tree/index.js',
   },
   packages: {

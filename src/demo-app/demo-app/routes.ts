@@ -54,6 +54,7 @@ import {TableDemoPage} from '../table/table-demo-page';
 import {TABLE_DEMO_ROUTES} from '../table/routes';
 import {BadgeDemo} from '../badge/badge-demo';
 import {ConnectedOverlayDemo} from '../connected-overlay/connected-overlay-demo';
+import { TapTargetDemo } from 'tap-target/tap-target-demo';
 
 export const DEMO_APP_ROUTES: Routes = [
   {path: '', component: DemoApp, children: [
@@ -94,6 +95,7 @@ export const DEMO_APP_ROUTES: Routes = [
     {path: 'stepper', component: StepperDemo},
     {path: 'table', component: TableDemoPage, children: TABLE_DEMO_ROUTES},
     {path: 'tabs', component: TabsDemo, children: TABS_DEMO_ROUTES},
+    {path: 'tap-target', component: TapTargetDemo},
     {path: 'toolbar', component: ToolbarDemo},
     {path: 'tooltip', component: TooltipDemo},
     {path: 'tree', component: TreeDemo},

@@ -86,6 +86,7 @@ export class DemoApp {
     {name: 'Stepper', route: '/stepper'},
     {name: 'Table', route: '/table'},
     {name: 'Tabs', route: '/tabs'},
+    {name: 'Tap Targets', route: '/tap-target'},
     {name: 'Toolbar', route: '/toolbar'},
     {name: 'Tooltip', route: '/tooltip'},
     {name: 'Tree', route: '/tree'},

@@ -1,0 +1,10 @@
+<ng-template>
+    <div class="mat-tap-target" (keyboard)="_handleKeydown($event)" tabindex="-1">
+
+        <div class="mat-tap-target-overlay"></div>
+        
+        <div class="mat-tap-target-content">
+            <ng-content></ng-content>
+        </div>
+    </div>
+</ng-template>

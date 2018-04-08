@@ -39,6 +39,7 @@ export * from '@angular/material/sort';
 export * from '@angular/material/stepper';
 export * from '@angular/material/table';
 export * from '@angular/material/tabs';
+export * from '@angular/material/tap-target';
 export * from '@angular/material/toolbar';
 export * from '@angular/material/tooltip';
 export * from '@angular/material/tree';

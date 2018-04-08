@@ -51,6 +51,7 @@ import {
   MatStepperModule,
   MatTableModule,
   MatTabsModule,
+  MatTapTargetModule,
   MatToolbarModule,
   MatTooltipModule,
   MatTreeModule
@@ -93,6 +94,7 @@ import {
     MatSortModule,
     MatStepperModule,
     MatTabsModule,
+    MatTapTargetModule,
     MatToolbarModule,
     MatTooltipModule,
     MatTreeModule,

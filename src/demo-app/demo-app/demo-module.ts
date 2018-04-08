@@ -64,6 +64,7 @@ import {TableDemoModule} from '../table/table-demo-module';
 import {BadgeDemo} from '../badge/badge-demo';
 import {TreeDemoModule} from '../tree/tree-demo-module';
 import {ConnectedOverlayDemo, DemoOverlay} from '../connected-overlay/connected-overlay-demo';
+import { TapTargetDemo } from '../tap-target/tap-target-demo';
 
 @NgModule({
   imports: [
@@ -128,6 +129,7 @@ import {ConnectedOverlayDemo, DemoOverlay} from '../connected-overlay/connected-
     StepperDemo,
     SunnyTabContent,
     TabsDemo,
+    TapTargetDemo,
     ToolbarDemo,
     TooltipDemo,
     TypographyDemo,
